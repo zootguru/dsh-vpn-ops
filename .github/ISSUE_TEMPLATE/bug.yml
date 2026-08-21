@@ -1,0 +1,30 @@
+name: Bug report
+description: Report a reproducible non-security defect with synthetic data.
+body:
+  - type: markdown
+    attributes:
+      value: Do not include credentials, keys, client profiles, or private infrastructure data. Use private vulnerability reporting for security issues.
+  - type: input
+    id: version
+    attributes:
+      label: Plugin and DSH versions
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Sanitized environment
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual result
+    validations:
+      required: true

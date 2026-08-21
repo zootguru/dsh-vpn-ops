@@ -1,0 +1,9 @@
+# Safe-by-default: installing this bundle registers the operations tools but
+# configures no SSH targets and permits no remote or local secret mutations.
+- insert:
+    - id: vpn-ops
+      name: dsh-vpn-ops
+      config:
+        targets: []
+        allowMutations: false
+        allowSecretExport: false

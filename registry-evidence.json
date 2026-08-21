@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "classification": "dsh-bundle-plugin",
+  "package": {
+    "name": "dsh-vpn-ops",
+    "version": "0.1.0",
+    "license": "MIT",
+    "bundlePatch": "./cordis.patch.yml",
+    "source": "https://github.com/zootguru/dsh-vpn-ops",
+    "tag": "v0.1.0",
+    "tarballSha256": "2292de8f696ee8d1a6bfe51ca7fea38a8030b51cc4542c870e20deda7ffe5d49"
+  },
+  "compatibility": {
+    "dshVersion": "0.1.1-rc.2",
+    "dshSourceCommit": "b150a551b8d465e31e418e1b2eaf5e79bbb7d28e",
+    "node": "^22.19.0 || >=24.0.0",
+    "verifiedAt": "2026-08-21"
+  },
+  "qualityGates": {
+    "strictTypecheck": "passed",
+    "tests": { "status": "passed", "count": 30 },
+    "coverage": {
+      "status": "passed",
+      "statements": 83.11,
+      "branches": 80.93,
+      "functions": 88.33,
+      "lines": 89.54
+    },
+    "publint": "passed",
+    "shellSyntax": "passed",
+    "packageLifecycleScripts": "none",
+    "packedInstall": "passed",
+    "dshRuntimeLoad": "passed",
+    "toolDispatch": "passed",
+    "cleanShutdown": "passed"
+  },
+  "capabilityEvidence": {
+    "registeredTools": [
+      "vpn_apply",
+      "vpn_export_client",
+      "vpn_plan",
+      "vpn_preflight",
+      "vpn_rollback",
+      "vpn_status",
+      "vpn_targets",
+      "vpn_verify"
+    ],
+    "stagingNetworkAcceptance": "not-run",
+    "reason": "No disposable Debian or Ubuntu VPN server was placed in scope."
+  }
+}

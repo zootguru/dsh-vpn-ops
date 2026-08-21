@@ -1,0 +1,17 @@
+# Synthetic example only. Authenticate the real host key independently.
+- id: vpn-ops
+  config:
+    allowMutations: false
+    allowSecretExport: false
+    targets:
+      - id: staging-edge
+        host: vpn.example.net
+        identityFile: /absolute/path/to/dedicated_ed25519
+        knownHostsFile: /absolute/path/to/pinned_known_hosts
+        publicEndpoint: vpn.example.net
+        publicInterface: eth0
+        realityServerName: www.example.com
+        realityDestination: www.example.com:443
+        clients:
+          - id: test-client
+            wireguardAddress: 10.66.66.2/32

@@ -1,0 +1,11 @@
+src/
+tests/
+scripts/
+docs/
+examples/
+.github/
+tsconfig*.json
+vitest.config.ts
+pnpm-lock.yaml
+artifacts/
+coverage/

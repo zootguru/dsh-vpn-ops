@@ -1,0 +1,6 @@
+node_modules/
+coverage/
+artifacts/
+.dsh-vpn-ops/
+*.tgz
+.DS_Store
