@@ -10,7 +10,7 @@ Safety-gated WireGuard and VLESS Reality operations for
 turns a reviewed, allowlisted server definition into repeatable preflight,
 plan, apply, status, verification, rollback, and client-export operations.
 
-> Status: `0.1.0` release candidate. The bundle load path is verified against
+> Status: `0.1.0` initial public release. The bundle load path is verified against
 > DSH `0.1.1-rc.2`; production network rollout still requires an operator-owned
 > staging server and acceptance test. See [Compatibility](#compatibility) and
 > [Limitations](#limitations).

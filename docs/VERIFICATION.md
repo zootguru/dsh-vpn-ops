@@ -74,7 +74,7 @@ gate was run.
 ## Recorded result — 2026-08-21
 
 - Final tarball SHA-256:
-  `2292de8f696ee8d1a6bfe51ca7fea38a8030b51cc4542c870e20deda7ffe5d49`.
+  `0d516394aaff65ff78bf28eeb8dda5b3b7c2aea0e741fdcaaf96b8183d1a8b0d`.
 - Static/type/package gates: passed.
 - Tests: 30 passed across seven test files.
 - Coverage: statements 83.11%, branches 80.93%, functions 88.33%, lines 89.54%.
