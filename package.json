@@ -85,7 +85,7 @@
     "@types/node": "22.20.0",
     "@vitest/coverage-v8": "4.1.8",
     "publint": "0.3.21",
-    "typescript": "6.0.3",
+    "typescript": "7.0.2",
     "vitest": "4.1.8"
   },
   "packageManager": "pnpm@11.19.0"
